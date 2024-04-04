@@ -1,0 +1,9 @@
+.menu{
+    background-color: aliceblue;
+    color: black;
+    font-size:large;
+}
+
+.selection {
+    display: flex;
+}
