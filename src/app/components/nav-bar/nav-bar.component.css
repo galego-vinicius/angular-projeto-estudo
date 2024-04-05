@@ -1,9 +1,12 @@
 .menu{
-    background-color: aliceblue;
+    background-color: red;
     color: black;
-    font-size:large;
+    font-size: 15px;
+    padding-left: 20%;
 }
 
 .selection {
+    padding-left: 50%;
     display: flex;
+    align-items: flex-start;
 }
