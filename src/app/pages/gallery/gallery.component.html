@@ -1,1 +1,10 @@
-<p>gallery works!</p>
+<ul>
+    @for (pokemon of pokemons; track pokemon.id) {
+        <li>
+            <div>
+                <h2 class="nome"> {{ pokemon.name }} </h2>
+                <img src="{{pokemon.sprites.front_default}}" alt="Foto do pokemon" class="image">
+            </div>
+        </li>
+    }
+</ul>

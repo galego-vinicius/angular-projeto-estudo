@@ -1,0 +1,16 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px 100px;
+}
+
+.image{
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+.name{
+    text-align: center;
+}
